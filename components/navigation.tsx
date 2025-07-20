@@ -25,6 +25,7 @@ export default function Navigation() {
   const router = useRouter()
   const [categories, setCategories] = useState<Category[]>([])
   const searchRef = useRef<HTMLDivElement>(null)
+import Image from "next/image";
 
   useEffect(() => {
     // Get initial session
@@ -148,7 +149,12 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <span className="text-2xl font-bold text-gray-900">StyleCo</span>
+            <Image
+                src={"/whiff-wear-logo.png"}
+                alt=""
+                width={100}
+                height={100}
+              />
           </Link>
 
           {/* Desktop Navigation */}
