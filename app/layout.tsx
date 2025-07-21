@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Whiff & Wear – Your Lifestyle & Accessories Brand",
   description: "Discover unique perfumes, accessories, watches, sunglasses, bags & more.",
 icons: {
-    icon: "/favicon.ico", // put the icon in the /public folder
+    icon: "/whiff-wear-logo.png", // put the icon in the /public folder
   },
 };
 
