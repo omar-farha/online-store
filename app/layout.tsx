@@ -8,8 +8,11 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Whiff Wear - Premium Perfume Brand",
-  description: "Discover premium quality Perfume and accessories",
+  title: "Whiff & Wear – Your Lifestyle & Accessories Brand",
+  description: "Discover unique perfumes, accessories, watches, sunglasses, bags & more.",
+icons: {
+    icon: "/favicon.ico", // put the icon in the /public folder
+  },
 };
 
 export default function RootLayout({
