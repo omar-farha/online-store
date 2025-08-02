@@ -348,23 +348,23 @@ export default async function HomePage() {
       </section>
 
       {/* Newsletter */}
-      <section className="py-16 bg-gray-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Stay in Style</h2>
-          <p className="text-lg text-gray-300 mb-8">
-            Subscribe to our newsletter for the latest updates and exclusive
-            offers
-          </p>
-          <div className="max-w-md mx-auto flex gap-4">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg text-gray-900"
-            />
-            <Button size="lg">Subscribe</Button>
-          </div>
-        </div>
-      </section>
+ <section className="py-16 bg-gray-900 text-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 className="text-3xl md:text-4xl font-bold mb-4">Stay in Style</h2>
+    <p className="text-lg text-gray-300 mb-8">
+      Subscribe to our newsletter for the latest updates and exclusive offers
+    </p>
+    <div className="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+      <input
+        type="email"
+        placeholder="Enter your email"
+        className="flex-1 px-4 py-3 rounded-lg text-gray-900"
+      />
+      <Button size="lg" className="w-full sm:w-auto">Subscribe</Button>
+    </div>
+  </div>
+</section>
+
 
       {/* Footer */}
       <footer className="bg-gray-50 py-12">
