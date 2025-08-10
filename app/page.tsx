@@ -21,6 +21,16 @@ import {
 import DiscountPopup from "@/components/DiscountPopup";
 export const dynamic = "force-dynamic";
 
+// Declare fbq as a global variable
+declare const fbq: (...args: any[]) => void;
+
+const trackPurchase = () => {
+  fbq("track", "Purchase", {
+    value: 100,
+    currency: "EGP",
+  });
+};
+
 interface HeroSection {
   id: string;
   title: string;
